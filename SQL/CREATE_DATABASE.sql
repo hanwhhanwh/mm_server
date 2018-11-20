@@ -1,3 +1,4 @@
+-- CREATE Miner monitor server DataBase
 CREATE DATABASE `MM_SERVER`;
 
 -- 신규 사용자 계정 'mm_server' 생성
