@@ -1,0 +1,14 @@
+CREATE TABLE `MINERS`
+(
+	`miner_no` INT NOT NULL AUTO_INCREMENT COMMENT '장비 번호'
+	, `miner_name` VARCHAR(100) NOT NULL COMMENT '장비 이름'
+	, `miner_ip` VARCHAR(15) NOT NULL COMMENT '장비 IP'
+	, `reg_date` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '장비 등록시각'
+	, `mod_date` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '장비 정보 수정시각'
+	, `miner_spec` LONGTEXT NULL DEFAULT NULL COMMENT '장비 상세 사양'
+
+	, PRIMARY KEY (`miner_no`)
+)
+COMMENT='장비 정보'
+COLLATE='utf8_general_ci'
+ENGINE=InnoDB;

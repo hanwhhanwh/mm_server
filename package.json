@@ -1,0 +1,24 @@
+{
+  "name": "mm_server",
+  "version": "1.0.0",
+  "description": "Mining monitor server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hanwhhanwh/mm_server.git"
+  },
+  "keywords": [
+    "mining",
+    "monitor",
+    "server"
+  ],
+  "author": "hbesthee@naver.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hanwhhanwh/mm_server/issues"
+  },
+  "homepage": "https://github.com/hanwhhanwh/mm_server#readme"
+}
