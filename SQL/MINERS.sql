@@ -14,3 +14,10 @@ CREATE TABLE IF NOT EXISTS `MINERS`
 COMMENT='장비 정보 관리 테이블'
 COLLATE='utf8_general_ci'
 ENGINE=InnoDB;
+
+INSERT INTO `MINERS` ( miner_name, miner_ip, reg_date, mod_date, miner_spec ) VALUES 
+		( 'miner #00', '192.168.0.100', NOW(), NOW(), NULL )
+		, ( 'miner #01', '192.168.0.101', NOW(), NOW(), NULL )
+		, ( 'miner #02', '192.168.0.102', NOW(), NOW(), NULL )
+		, ( 'miner #03', '192.168.0.103', NOW(), NOW(), NULL )
+		;
