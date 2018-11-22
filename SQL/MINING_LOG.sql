@@ -10,7 +10,6 @@ CREATE TABLE `MINING_LOG`
 	, `miner_sw_no` INT NOT NULL COMMENT '채굴 S/W 번호'
 	, `running_time` INT NOT NULL COMMENT '채굴 S/W 동작 시간 (분)'
 	, `total_hash` FLOAT NOT NULL COMMENT '총해쉬 값'
-	, `hash_unit` TINYINT NOT NULL COMMENT '해쉬 단위 : 0-H, 1-KH, 2-MH, 3-GH'
 	, `submitted_shares` INT NOT NULL COMMENT '승인된 쉐어 수'
 	, `invalid_shares` INT NOT NULL COMMENT '잘못된 쉐어 수'
 	, `rejected_shares` INT NOT NULL COMMENT '거절된 쉐어 수'

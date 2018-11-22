@@ -9,7 +9,7 @@ CREATE TABLE `MINING_LOG_DETAILS`
 	, `fan_speed` INT NOT NULL DEFAULT 0 COMMENT '팬 속도 (%)'
 	, `power` INT NOT NULL DEFAULT 0 COMMENT '사용 전력값'
 
-	, PRIMARY KEY (`mining_log_no`, `index_no`)
+	, PRIMARY KEY ( `mining_log_no`, `index_no` )
 )
 COMMENT='채굴 상세 로그'
 COLLATE='utf8_general_ci'
